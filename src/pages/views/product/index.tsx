@@ -5,9 +5,9 @@ import Image from "next/image"
 
 const ProductView = ({products}: { products: ProductType[] }) => {
     return (
-        <div className="bg-neutral-100 h-screen p-2">
+        <div className="bg-neutral-100 h-full p-2">
             <h2 className="text-gray-800 font-bold text-3xl text-center">Product Saya</h2>
-            <div className="flex justify-center items-center py-4 gap-5">
+            <div className="flex justify-center items-center py-4 gap-5 flex-wrap">
                 {products?.length > 0 ? (
                     <>
                     {products?.map((product: ProductType) => (
