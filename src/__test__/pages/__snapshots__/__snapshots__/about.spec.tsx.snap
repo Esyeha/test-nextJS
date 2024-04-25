@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Page render about page 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex justify-center items-center flex-col"
+      >
+        <div
+          class="flex justify-center items-center flex-col pt-4 gap-y-4"
+        >
+          <img
+            alt="logo"
+            class=" object-cover mr-12"
+            data-nimg="1"
+            decoding="async"
+            height="400"
+            loading="lazy"
+            src="/_next/image?url=%2Fsyh.png&w=828&q=75"
+            srcset="/_next/image?url=%2Fsyh.png&w=640&q=75 1x, /_next/image?url=%2Fsyh.png&w=828&q=75 2x"
+            style="color: transparent;"
+            width="400"
+          />
+          <h1
+            class="text-3xl tracking-widest"
+            data-testid="title"
+            id="title"
+          >
+            Syaifullah
+          </h1>
+          <p
+            class="text-md italic tracking-widest"
+          >
+            - as front-end Dev -
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex justify-center items-center flex-col"
+    >
+      <div
+        class="flex justify-center items-center flex-col pt-4 gap-y-4"
+      >
+        <img
+          alt="logo"
+          class=" object-cover mr-12"
+          data-nimg="1"
+          decoding="async"
+          height="400"
+          loading="lazy"
+          src="/_next/image?url=%2Fsyh.png&w=828&q=75"
+          srcset="/_next/image?url=%2Fsyh.png&w=640&q=75 1x, /_next/image?url=%2Fsyh.png&w=828&q=75 2x"
+          style="color: transparent;"
+          width="400"
+        />
+        <h1
+          class="text-3xl tracking-widest"
+          data-testid="title"
+          id="title"
+        >
+          Syaifullah
+        </h1>
+        <p
+          class="text-md italic tracking-widest"
+        >
+          - as front-end Dev -
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

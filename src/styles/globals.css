@@ -2,32 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #030712;
+  color: white;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+img {
+  width: 300px;
+  height: 300px;
+}
+
+
+.product-skeleton {
+    width: 300px;
+    height: 420px;
+    border-radius: 10px;
+    background-color: gray;
+    padding: 10px;
+}
+
+.product-skeleton-image {
+  background-color: whitesmoke;
+  height: 300px;
+  animation: blingking .9s infinite;
+}
+.product-skeleton-title {
+  margin-top: 10px;
+  background-color: whitesmoke;
+  height: 25px;
+  animation: blingking .8s infinite;
+}
+.product-skeleton-category {
+  margin-top: 10px;
+  background-color: white;
+  height: 20px;
+  animation: blingking .7s infinite;
+}
+.product-skeleton-price {
+  margin-top: 10px;
+  background-color: whitesmoke;
+  height: 20px;
+  animation: blingking 1s infinite;
+}
+
+@keyframes blingking {
+ 0% {
+   opacity: 1;
+ }
+ 50% {
+   opacity: 0;
+ }
+ 100% {
+   opacity: 1;
+ }
 }
